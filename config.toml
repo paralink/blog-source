@@ -1,0 +1,20 @@
+baseurl = "http://blog.parallel.link"
+languageCode = "zh-cn"
+title = "Parallel Link"
+theme = "hemingway"
+disqusShortname = "parallellink"
+
+[permalinks]
+  post = "/:title"
+
+[[params.highlight]]
+style = "github"
+languages = ["java", "haskell"]
+
+[[params.social]]
+url = "https://github.com/parallellink"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
